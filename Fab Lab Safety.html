@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang ="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+a { text-decoration: none; }
+
+body {
+  font-family: Helvetica;
+}
+
+header {
+  font-family: Futura;
+  background-color: #3A3A3A;
+  padding: 5px;
+  font-size: 20px;
+  color: white;
+}
+
+nav {
+  float: left;
+  width: 30%;
+  height: 550px; 
+  background: #ccc;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 550px; 
+}
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  color: black;
+  padding: 10px;
+  font-size: 15px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #FFF;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 7px 10px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #AAAAAA;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #AAAAAA;}
+
+footer {
+  font-family: Futura;
+  background-color: #3A3A3A;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+@media (max-width: 550px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body> 
+
+<header>
+  <center>
+  <h2>Fab Lab Safety</h2>
+  </center>
+</header>
+
+<section>
+  <nav>
+    <ul>
+    <b>Navigation:</b>
+    <p></p>
+    <li><a href="index.html">Home</a></li>
+    <p></p>
+    <li><a href="AboutMe.html">About Me</a></li>
+    <p></p>
+  <div class="dropdown">
+   <button class="dropbtn">EP 1000 Projects</button>
+   <div class="dropdown-content">
+    <a href="Prototyping.html">Prototyping - Phone Stand</a>
+    <a href="Web.html">Web Development</a>
+    <a href="Github.html">Github & Version Control</a>
+    <a href="Computer.html">Computer Aided Design</a>
+    <a href="3DModelling.html">3D Modelling</a>
+    <a href="3DPrinting.html">3D Printing</a>
+    <a href="LaserCutting.html">Laser Cutting</a>
+    <a href="Final Project.html">Final Project</a>
+  </div>
+</div>    
+    </ul>
+  </nav>
+
+  <article>
+  <p></p>
+  <b> Key Points when using Fab Lab </b>
+  <p> 1. Appropriate Clothing: Long covered pants, covered shoe with rubber soles and no accessories. </p>
+  <p></p>
+  <p> 2. Long hair must be tied. </p>
+  <p></p>
+  <p> 3. Be alert of your surroundings. </p>
+  <p></p>
+  <p> 4. No food and drinks allowed. </p>
+  <p></p>
+  <p> 5. Seek permission from the Technical Supporting Officer or Lecturer before operating the machines in Fab Lab. </p>
+  <p></p>
+  <p> 6. Report any faulty machines or emergencies to the Technical Supporting Officer or Lecturer present. </p>
+  <p></p>
+  <p> 7. Wear safety gears when required. </p>
+
+ </article>
+</section>
+
+<footer>
+ <p>Copyright © 2021, YiHui. All rights reserved.</p>
+</footer>
+</body>
+</html>
